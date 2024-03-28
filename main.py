@@ -50,7 +50,7 @@ def calculating():
 
 def beginner(n):
     os.system('cls')
-    res = n * 10
+    res = n * 11
     calculating()
     print("---------------------------------------------")
     print("It will take approximately " + cs(str(res), "red") + " hours.")
