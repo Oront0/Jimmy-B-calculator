@@ -50,7 +50,7 @@ def calculating():
 
 def beginner(n):
     os.system('cls')
-    res = n * 11
+    res = n * 19
     calculating()
     print("---------------------------------------------")
     print("It will take approximately " + cs(str(res), "red") + " hours.")
@@ -60,7 +60,7 @@ def beginner(n):
 
 def intermediate(n):
     os.system('cls')
-    res = n * 7
+    res = n * 11
     calculating()
     print("---------------------------------------------")
     print("It will take approximately " + cs(str(res), "orange") + " hours.")
@@ -70,7 +70,7 @@ def intermediate(n):
 
 def expert(n):
     os.system('cls')
-    res = n * 4
+    res = n * 7
     calculating()
     print("---------------------------------------------")
     print("It will take approximately " + cs(str(res), "green") + " hours.")
